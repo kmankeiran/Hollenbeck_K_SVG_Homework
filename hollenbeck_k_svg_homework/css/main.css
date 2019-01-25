@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden
+{
+	display: none;
+}
+
+#title
+{
+	font-family: 'Noto Serif SC', serif;
+}
+
+#iconRow1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.icon
+{
+	width: 15%;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+
+.icon:hover
+{
+  -moz-box-shadow: 8px 8px 0px #9AA3A8;
+  -webkit-box-shadow: 8px 8px 0px #9AA3A8;
+  box-shadow: 8px 8px 0px #9AA3A8;
+  -webkit-transition: all 500ms ease;
+}
+
+#iconRow2
+{
+	display: flex;
+	flex-direction: row;
+}
