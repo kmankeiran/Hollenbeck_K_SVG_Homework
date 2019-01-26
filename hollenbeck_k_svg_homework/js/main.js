@@ -1,16 +1,9 @@
 (() => { 
-var otherIcons = document.querySelectorAll('.icon');
 
-
-	function iconJeans(jeans) {
-		console.log(this.Jeans);
-		debugger;
-	}
-
-
-icon.addEventListener("click", Jeans);
-
-
-otherIcons.forEach(thisicon => thisicon.addEventListener("click", Jeans));	
+let theJeans = document.querySelector("#jeans");
+function logThisJeans() {
+	console.log(this.id);
+}
+theJeans.addEventListener("click", jeans);	
 
 })();
