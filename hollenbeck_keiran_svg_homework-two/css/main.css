@@ -9,6 +9,50 @@
 #title
 {
 	font-family: 'Noto Serif SC', serif;
+	display: block;
+	padding: 15px;
+	background-color: #ee7b25;
+	color: #fff;
+	text-decoration: none;
+}
+
+#container
+{
+	padding-left: 1200px;
+}
+
+
+#mainNav
+{
+	font-size: 15px;
+	height: 30px;
+}
+
+
+#mainNav ul
+{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+#mainNav ul li a
+{
+	display: block;
+	text-decoration: none;
+	margin-left: 30px;
+	padding: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all .5s ease;
+	border: 2px solid #ee7b25;
+}
+
+#mainNav ul li a:hover
+{
+	background-color: red;
+	border-radius: 10px;
+	color: #333;
 }
 
 #iconRow1
@@ -20,7 +64,7 @@
 
 .icon
 {
-	width: 15%;
+	width: 25%;
 	margin-top: 60px;
 	margin-left: 60px;
 }
@@ -37,4 +81,36 @@
 {
 	display: flex;
 	flex-direction: row;
+}
+
+.button {
+	outline:none;
+	border:none;
+	padding:10px;
+	display:block;
+	margin:0px auto;
+	margin-top: 5px;
+	cursor:pointer;
+	font-size:20px;
+	background-color:transparent;
+	position:relative;
+	border:2px solid #000000;
+	transition: all .5s ease;
+
+}
+
+.button:hover {
+		background-color: red;
+		border-color:#000000;
+		color:#fff;
+
+		.insider {
+			 transition(all 0.3s ease);
+			left:35px;
+}
+
+
+#selected
+{
+
 }

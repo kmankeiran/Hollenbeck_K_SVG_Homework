@@ -1,16 +1,15 @@
 (() => { 
 
-let badgeButton = document.querySelector("button");
-function logBadge() {
-	console.log(this.previousElementSibling.id);
-}
-badgeButton.addEventListener("click", logBadge);
+let badgeButtons = document.querySelectorAll("button");
 
-let badgeButton = document.querySelector("button");
 function logBadge() {
 	console.log(this.previousElementSibling.id);
+	this.previousElementSibling.classList.add("selected");
+	// Add toggle class to the svg to make it look like it's been selected
 }
-badgeButton.addEventListener("click", logBadge);
+
+badgeButtons.forEach(button => button.addEventListener("click", logBadge));
+
 
 
 })();
